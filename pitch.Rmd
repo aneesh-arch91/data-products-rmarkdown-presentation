@@ -1,0 +1,26 @@
+---
+title: "Developing Data Products: Course Project"
+date: "Date created: `r Sys.Date()`"
+output: ioslides_presentation
+---
+
+## Introduction
+
+This is the final project for the course Developing Data Products as part of Data Science Specialization in Coursera.
+This project consists of a shiny application which manipulates and analyses the `ChickWeight` data.
+
+## Features
+
+1. The app is written using the `shiny` library.
+2. The `shiny` server does calculations based on the input generated from the sliders and menus on the webpage.
+3. The app generates a plot using `ggplot2` function and converts it to `plotly` plot using the `ggplotly` function.
+4. A linear model is generated for all Diet types and the coefficients are displayed below the plot.
+
+## Instructions
+
+1. Select the Diet menu to select the diet type.
+2. Move both the thumbs of the Time slider to select the time range for the `ChickWeight` data.
+
+## Thank you
+
+The application can be viewed [here](https://adoval92.shinyapps.io/chickweight_data_shiny/).
